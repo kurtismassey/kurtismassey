@@ -1,4 +1,8 @@
-### Hi there 👋
+### 👋 Hey, I'm Kurtis
+
+[![GitHub Streak](https://streak-stats.demolab.com/?user=kurtismassey&theme=dark)](https://git.io/streak-stats)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kurtismassey&layout=compact&theme=radical)
 
 <!--
 **kurtismassey/kurtismassey** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
