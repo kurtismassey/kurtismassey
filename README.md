@@ -8,6 +8,8 @@
 <!--START_SECTION:waka-->
 
 ```txt
+Total Time: 4 hrs 56 mins
+
 Python       2 hrs 53 mins   ██████████████░░░░░░░░░░░   56.65 %
 YAML         40 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.32 %
 JSON         35 mins         ███░░░░░░░░░░░░░░░░░░░░░░   11.76 %
