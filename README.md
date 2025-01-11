@@ -3,6 +3,15 @@
 </h3>
 
 <!--START_SECTION:waka-->
+
+```txt
+Python       2 hrs 53 mins   ██████████████░░░░░░░░░░░   56.65 %
+YAML         40 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.32 %
+JSON         35 mins         ███░░░░░░░░░░░░░░░░░░░░░░   11.76 %
+Bash         18 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.95 %
+TOML         13 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.37 %
+```
+
 <!--END_SECTION:waka-->
 
 <!--START_SECTION:github_stats-->
