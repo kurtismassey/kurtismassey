@@ -5,4 +5,5 @@
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
 
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=kurtismassey&show_icons=true&theme=gotham" alt="kurtismassey" />
+<!--START_SECTION:github_stats-->
+<!--END_SECTION:github_stats-->
