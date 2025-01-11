@@ -14,7 +14,6 @@
   </table>
 </div>
 <div align="center">
-<br>
 
 <!--START_SECTION:waka-->
 
