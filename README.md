@@ -18,16 +18,17 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 4 hrs 56 mins
+Total Time: 11 hrs 3 mins
 
-Python       2 hrs 53 mins   ██████████████░░░░░░░░░░░   56.65 %
-YAML         40 mins         ███▒░░░░░░░░░░░░░░░░░░░░░   13.32 %
-JSON         35 mins         ███░░░░░░░░░░░░░░░░░░░░░░   11.76 %
-Bash         18 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.95 %
-TOML         13 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.37 %
+Python        3 hrs 53 mins   ████████▓░░░░░░░░░░░░░░░░   34.59 %
+TypeScript    2 hrs 16 mins   █████░░░░░░░░░░░░░░░░░░░░   20.27 %
+Markdown      1 hr 46 mins    ████░░░░░░░░░░░░░░░░░░░░░   15.72 %
+JSON          57 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.54 %
+YAML          52 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.82 %
 ```
 
 <!--END_SECTION:waka-->
+
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=kurtismassey&theme=tokyo-night&hide_border=true&custom_title=Contribution%20Graph" />
 
 </div>

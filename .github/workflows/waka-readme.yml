@@ -15,7 +15,9 @@ jobs:
       - uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          COMMIT_MESSAGE: "chore: latest devmetrics (${{ github.event.head_commit.timestamp }})"
+          COMMIT_MESSAGE: "chore: latest devmetrics (${{ github.event.head_commit.timestamp || github.event.workflow_run.created_at }})"
           COMMITTER_NAME: "Kurtis Massey"
           COMMITTER_EMAIL: ${{ vars.GIT_EMAIL }}
           SHOW_TOTAL: true
+          TIME_RANGE: all_time
+          SHOW_TITLE: true
