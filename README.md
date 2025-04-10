@@ -18,15 +18,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 10 January 2025 - To: 07 April 2025
+From: 10 January 2025 - To: 08 April 2025
 
-Total Time: 413 hrs 54 mins
+Total Time: 422 hrs 3 mins
 
-TypeScript    190 hrs 8 mins  ███████████▒░░░░░░░░░░░░░   45.05 %
-Python        137 hrs 33 mins ████████░░░░░░░░░░░░░░░░░   32.59 %
-YAML          27 hrs 56 mins  █▓░░░░░░░░░░░░░░░░░░░░░░░   06.62 %
-Bash          16 hrs 45 mins  █░░░░░░░░░░░░░░░░░░░░░░░░   03.97 %
-Makefile      9 hrs 43 mins   ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.31 %
+TypeScript    190 hrs 8 mins  ███████████░░░░░░░░░░░░░░   44.20 %
+Python        145 hrs 18 mins ████████▒░░░░░░░░░░░░░░░░   33.77 %
+YAML          27 hrs 56 mins  █▓░░░░░░░░░░░░░░░░░░░░░░░   06.50 %
+Bash          16 hrs 48 mins  █░░░░░░░░░░░░░░░░░░░░░░░░   03.91 %
+Makefile      9 hrs 44 mins   ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.26 %
 ```
 
 <!--END_SECTION:waka-->
