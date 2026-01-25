@@ -12,10 +12,13 @@ jobs:
     name: waka-readme devmetrics
     runs-on: ubuntu-latest
     steps:
+      - name: Get current timestamp
+        id: timestamp
+        run: echo "time=$(date -u +'%Y-%m-%d %H:%M UTC')" >> $GITHUB_OUTPUT
       - uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          COMMIT_MESSAGE: "chore: latest devmetrics (${{ github.event.head_commit.timestamp || github.event.workflow_run.created_at }})"
+          COMMIT_MESSAGE: "chore: latest devmetrics (${{ steps.timestamp.outputs.time }})"
           COMMITTER_NAME: "Kurtis Massey"
           COMMITTER_EMAIL: ${{ vars.GIT_EMAIL }}
           SHOW_TOTAL: true
