@@ -3,9 +3,9 @@ name: waka-readme
 on:
   workflow_dispatch:
   push:
-    branches: [ main ]
+    branches: [main]
   schedule:
-    - cron: '0 0 * * *'
+    - cron: 0 0 * * *
 
 jobs:
   update-readme:
@@ -19,7 +19,7 @@ jobs:
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           COMMIT_MESSAGE: "chore: latest devmetrics (${{ steps.timestamp.outputs.time }})"
-          COMMITTER_NAME: "Kurtis Massey"
+          COMMITTER_NAME: Kurtis Massey
           COMMITTER_EMAIL: ${{ vars.GIT_EMAIL }}
           SHOW_TOTAL: true
           TIME_RANGE: all_time
