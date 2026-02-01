@@ -23,7 +23,7 @@ jobs:
                   card: stats
                   options: username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_title=true&hide_border=true&
                   path: profile/stats.svg
-                  token: ${{ secrets.GITHUB_TOKEN }}
+                  token: ${{ secrets.GH_STATS_TOKEN }}
 
             - name: Commit cards
               run: |
