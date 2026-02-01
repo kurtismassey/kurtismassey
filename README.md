@@ -8,7 +8,7 @@
         <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=15&duration=4000&pause=1000&color=00FF00&center=true&vCenter=true&random=false&width=150&lines=%24+whoami;Kurtis+Massey" alt="typing svg" />
       </td>
       <td align="center" width="33%">
-        <img src="https://github-readme-stats.vercel.app/api?username=kurtismassey&show_icons=true&theme=tokyonight&hide_title=true" alt="github stats" />
+        <img src="./profile/stats.svg" alt="github stats" />
       </td>
     </tr>
   </table>
