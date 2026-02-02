@@ -17,6 +17,10 @@ jobs:
         steps:
             - uses: actions/checkout@v6
 
+            - name: Get current timestamp
+              id: timestamp
+              run: echo "time=$(date -u +'%Y-%m-%d %H:%M UTC')" >> $GITHUB_OUTPUT
+
             - name: Generate stats card
               uses: readme-tools/github-readme-stats-action@v1
               with:
@@ -30,5 +34,5 @@ jobs:
                   git config user.name "Kurtis Massey"
                   git config user.email ${{ vars.GIT_EMAIL }}
                   git add profile/*.svg
-                  git commit -m "docs(README): update stats cards" || exit 0
+                  git commit -m "docs(README): update stats cards (${{ steps.timestamp.outputs.time }})" || exit 0
                   git push
