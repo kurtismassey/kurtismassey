@@ -29,29 +29,14 @@ jobs:
                   path: profile/stats.svg
                   token: ${{ secrets.GH_STATS_TOKEN }}
 
-            - name: Checkout streak action
-              uses: actions/checkout@v6
-              with:
-                  repository: muhammad-fiaz/github-readme-streak-stats
-                  ref: v1.0.0
-                  path: streak-action
-
-            - name: Setup Bun
-              uses: oven-sh/setup-bun@v2
-              with:
-                  bun-version: latest
-
             - name: Generate streak stats card
-              working-directory: streak-action
-              env:
-                  INPUT_USERNAME: ${{ github.repository_owner }}
-                  INPUT_GITHUB_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
-                  INPUT_THEME: tokyonight
-                  INPUT_OUTPUT_PATH: ../profile/streaks.svg
-                  INPUT_HIDE_BORDER: "true"
-              run: |
-                  bun install --frozen-lockfile
-                  bun run src/action.ts
+              uses: kurtismassey/github-readme-streak-stats@fix/run-in-action-dir
+              with:
+                  USERNAME: ${{ github.repository_owner }}
+                  GITHUB_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
+                  THEME: tokyonight
+                  OUTPUT_PATH: profile/streaks.svg
+                  HIDE_BORDER: true
 
             - name: Commit and push cards
               run: |
