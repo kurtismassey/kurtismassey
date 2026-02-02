@@ -21,14 +21,29 @@ jobs:
               id: timestamp
               run: echo "time=$(date -u +'%Y-%m-%d %H:%M UTC')" >> $GITHUB_OUTPUT
 
-            - name: Generate streak stats card
-              uses: muhammad-fiaz/github-readme-streak-stats@v1.0.0
+            - name: Checkout streak action
+              uses: actions/checkout@v6
               with:
-                  USERNAME: ${{ github.repository_owner }}
-                  GITHUB_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
-                  THEME: tokyonight
-                  OUTPUT_PATH: profile/streaks.svg
-                  HIDE_BORDER: true
+                  repository: muhammad-fiaz/github-readme-streak-stats
+                  ref: v1.0.0
+                  path: streak-action
+
+            - name: Setup Bun
+              uses: oven-sh/setup-bun@v2
+              with:
+                  bun-version: latest
+
+            - name: Generate streak stats card
+              working-directory: streak-action
+              env:
+                  INPUT_USERNAME: ${{ github.repository_owner }}
+                  INPUT_GITHUB_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
+                  INPUT_THEME: tokyonight
+                  INPUT_OUTPUT_PATH: ../profile/streaks.svg
+                  INPUT_HIDE_BORDER: "true"
+              run: |
+                  bun install --frozen-lockfile
+                  bun run src/action.ts
 
             - name: Commit cards
               run: |
