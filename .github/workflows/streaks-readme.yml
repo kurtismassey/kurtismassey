@@ -1,0 +1,39 @@
+name: streaks-readme
+
+on:
+    schedule:
+        - cron: 0 0 * * *
+    workflow_dispatch:
+    push:
+        branches: [main]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        permissions:
+            contents: write
+
+        steps:
+            - uses: actions/checkout@v6
+
+            - name: Get current timestamp
+              id: timestamp
+              run: echo "time=$(date -u +'%Y-%m-%d %H:%M UTC')" >> $GITHUB_OUTPUT
+
+            - name: Generate streak stats card
+              uses: muhammad-fiaz/github-readme-streak-stats@v1.0.0
+              with:
+                  USERNAME: ${{ github.repository_owner }}
+                  GITHUB_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
+                  THEME: tokyonight
+                  OUTPUT_PATH: profile/streaks.svg
+                  HIDE_BORDER: true
+
+            - name: Commit cards
+              run: |
+                  git config user.name "Kurtis Massey"
+                  git config user.email ${{ vars.GIT_EMAIL }}
+                  git add profile/streaks.svg
+                  git commit -m "docs(README): update streak card (${{ steps.timestamp.outputs.time }})" || exit 0
+                  git push
