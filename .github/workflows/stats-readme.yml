@@ -30,7 +30,7 @@ jobs:
                   token: ${{ secrets.GH_STATS_TOKEN }}
 
             - name: Generate streak stats card
-              uses: kurtismassey/github-readme-streak-stats@fix/run-in-action-dir
+              uses: muhammad-fiaz/github-readme-streak-stats@v1.0.1
               with:
                   USERNAME: ${{ github.repository_owner }}
                   GITHUB_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
