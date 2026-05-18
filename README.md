@@ -21,12 +21,12 @@
 ```txt
 From: 10 January 2025 - To: 16 May 2026
 
-Total Time: 1,616 hrs 24 mins
+Total Time: 1,617 hrs 47 mins
 
-Python        815 hrs 11 mins       ████████████▒░░░░░░░░░░░░   49.07 %
-TypeScript    478 hrs 29 mins       ███████▒░░░░░░░░░░░░░░░░░   28.80 %
-YAML          83 hrs 4 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.00 %
-Other         44 hrs 44 mins        ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.69 %
+Python        816 hrs 9 mins        ████████████▒░░░░░░░░░░░░   49.10 %
+TypeScript    478 hrs 47 mins       ███████▒░░░░░░░░░░░░░░░░░   28.81 %
+YAML          83 hrs 6 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.00 %
+Other         44 hrs 18 mins        ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.67 %
 JSON          41 hrs 6 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.47 %
 ```
 
