@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Kurtis Massey's GitHub Stats, Rank: B+</title>
-        <desc id="descId">Total Stars Earned: 2, Total Commits  (last year) : 8335, Total PRs: 943, Total Issues: 676, Contributed to (last year): 26</desc>
+        <desc id="descId">Total Stars Earned: 2, Total Commits  (last year) : 8337, Total PRs: 943, Total Issues: 679, Contributed to (last year): 26</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 94.51642401072573;
+        stroke-dashoffset: 94.5164239985907;
       }
     }
   
@@ -193,7 +193,7 @@
         x="219.01"
         y="12.5"
         data-testid="issues"
-      >676</text>
+      >679</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
