@@ -32,6 +32,6 @@ Text           73 hrs 40 mins        ▓░░░░░░░░░░░░░�
 
 <!--END_SECTION:waka-->
 
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kurtismassey&theme=tokyo-night&hide_border=true&custom_title=Contribution%20Graph" />
+  <img src="./profile/activity-graph.svg" alt="contribution graph" />
 
 </div>
