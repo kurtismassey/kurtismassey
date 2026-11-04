@@ -32,6 +32,6 @@ Text           73 hrs 40 mins        ▓░░░░░░░░░░░░░�
 
 <!--END_SECTION:waka-->
 
-  <img src="./profile/activity-graph.svg" alt="contribution graph" />
+  <img src="./profile/activity-graph.svg?v=tokyo-night" alt="contribution graph" />
 
 </div>
