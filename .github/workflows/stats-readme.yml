@@ -43,7 +43,7 @@ jobs:
               with:
                   username: ${{ github.repository_owner }}
                   token: ${{ secrets.GITHUB_TOKEN }}
-                  output_path: profile/activity-graph.svg
+                  output_path: profile/contribution-graph.svg
                   options: theme=tokyo-night&hide_border=true&custom_title=Contribution%20Graph
 
             - name: Commit and push cards
